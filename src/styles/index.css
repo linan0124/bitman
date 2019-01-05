@@ -1,0 +1,59 @@
+body, html {
+  font-family: Microsoft YaHei,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,SimSun,sans-serif;
+  font-size: 14px;
+  background: #f4f6f9;
+  color: #737373;
+}
+
+body *, html * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.yellow {
+  color: #FFC000;
+}
+
+#nprogress .spinner {
+  display: none !important;
+}
+
+.closebtn * {
+  color: #3F4D8C !important;
+}
+
+.scroller, scroller * {
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=index.css.map */
